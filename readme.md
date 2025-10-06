@@ -86,7 +86,7 @@ Code snippet –
 ![image](https://github.com/prajwalnayak17/Shiksha_GPT/assets/87718913/8f9a3590-45ba-4de5-9ab9-13887ab72859)
 
  
-# 5. Integration with Custom Model (test.py)
+**5. Integration with Custom Model (test.py)**
 
 The model.py file contains the implementation of the custom chat bot model. It leverages language models for question answering, embeddings, and a vector store for efficient retrieval.
 So, when the final_result() function in execute function of main.py file is run we come to this file, the test.py file.
@@ -127,7 +127,7 @@ Combining everything to form the output function
 ![image](https://github.com/prajwalnayak17/Shiksha_GPT/assets/87718913/bb44c599-3659-4d15-a5aa-38aa638c07f7)
 
 
-# 6. Error Handling
+**6. Error Handling**
 Error handling was implemented within the execute function to gracefully manage errors during query processing. The messages attribute in the ray class was updated with error details.
 
 Code snippet – 
@@ -135,15 +135,15 @@ Code snippet –
 ![image](https://github.com/prajwalnayak17/Shiksha_GPT/assets/87718913/d7c5e3f5-f230-492d-baa9-f569190842e3)
 
 
-# 7. State Management
+**7. State Management**
 
 The state.json file in the datastore/ directory is used to track the status of each query, including queued, requested, and completed queries. The state is updated at various stages of query processing.
 
-# 8. Output Storage
+**8. Output Storage**
 
 The output of each query, along with relevant information, is stored in a separate file (query_id.json) within the datastore/queries/ directory.
 
-# 9. Output
+**9. Output**
 
 Output – 
 
@@ -152,7 +152,7 @@ Output –
 
 In this snippet you can see we have used postman to generate the response for 3 queries passed into the request body in json format.
  
-# 10. UI Interface 
+**10. UI Interface**
 
 By leveraging the functionalities of chainlit I have developed a custom code for our bot’s user interface. 
 To see a working UI through chainlit go to ur environment terminal and type - "chainlit run test,py -w"
