@@ -1,4 +1,4 @@
-# 🧩 **ShikshaGPT - AI Chat Bot for Science-Related Questions**
+# 🧩 ShikshaGPT - AI Chat Bot for Science-Related Questions
 
 # Introduction
 Welcome to the documentation of the customized chat bot developed for science-related questions aka the science bot. This document outlines the journey and key components of the project, from requirements to implementation. The outcome of this project developed is to handle scientific questions intelligibly by a bot and provide the best possible answer to it.
